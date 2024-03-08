@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><b>User Information: </b></legend><br/>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" > <small><i> Please enter Full Name.</i></small>
+            <br>
+            <label for="dob">DOB: </label>
+            <input type="date" name="dob" id="dob">
+            <br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="Gender" id="Gender">Male.
+            <input type="radio" name="Gender" id="Gender">Female.
+            <input type="radio" name="Gender" id="Gender">Others.
+            <br>
+            <label for="Mobile">Mobile Number: </label>
+            <input type="tel" name="Mobile" id="Mobile">
+            <br>
+            <label for="Email">Email ID: </label>
+            <input type="email" name="Email" id="Email">
+            <br>
+            <label for="Address">Address: </label>
+            <textarea name="Address" id="Address" cols="30" rows="3"></textarea>
+            <br>
+            <label for="state">State: </label>
+            <select name="state" id="state">
+                <option value="">West Bengal</option>
+                <option value="">Maharastra</option>
+                <option value="">Bihar</option>
+                <option value="">Goa</option>
+            </select>
+            <br>
+            <label for="Country">Country: </label>
+            <select name="" id="Country">
+                <option value="India">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="">UAE</option>
+            </select> 
+            <br>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <b>Create An Account:</b>
+            </legend>
+            <form action="">
+                <label for="Username">Username: </label>
+                <input type="text" name="username" id="Username" placeholder="Choose your Username."><small><i> Please enter a unique Username.</i></small>
+                <br>
+                <label for="Mail-2">Mail ID: </label>
+                <input type="email" name="Mail" id="Mail-2"  placeholder="Enter Your Mail Id"  ><small><i> Please enter a valid mail id.</i></small>
+                <br>
+                <label for="Password">Password: </label>
+                <input type="password" name="Password" id="Password" pattern="[0-9A-Za-z]{08,12}" placeholder="Enter A Strong Password"><small><i> Max 12 char & Min 8 char.</i></small>
+
+                <br><br>
+                <input type="submit" value="Register And Submit">
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>

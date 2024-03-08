@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form - Day 11</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <b>
+                    <i>
+                        Form 1
+                    </i>
+                </b>
+            </legend>
+            <label for="gender">Gender: </label>
+            <br>
+            <input type="radio" name="gender" id="gender1"> Male
+            <input type="radio" name="gender" id="gender2">Female
+            <input type="radio" name="gender" id="gender3">Others
+            <br><br>
+            <label for="skills">Skills: </label>   <br>
+            <input type="checkbox" name="Skills" id="html1">HTML
+            <input type="checkbox" name="Skills" id="css1">CSS
+            <input type="checkbox" name="Skills" id="js1">JS
+            <br><br>
+            <label for="dept">Enter Your Department:  </label>
+            <select name="Department" id="dept">
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="ANCS">ANCS</option>
+            </select>
+            <br><br>
+
+            <label for="feedback">Your Message: </label>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="2"> It's been a good experiance.</textarea>
+        </fieldset>
+       <fieldset>
+        <legend>
+            <b>
+                <i>
+                    Form 2
+                </i>
+            </b>
+        </legend>
+        <label for="name1">Name: </label>
+        <input type="text" name="name" id="name1" placeholder="Enter your Name">
+        <br><br>
+        
+        <label for="mail9">Mail ID: </label>
+        <input type="email" name="mail" id="mail9" placeholder="Enter your Name">
+
+        <br><br>
+
+        <label for="pass1">Password: </label>
+        <input type="password" name="Password" id="pass1" placeholder="Enter your Password">
+
+        <br><br>
+        <label for="photo1">Your Photo: </label>
+        <input type="file" name="Photo" id="photo1">
+
+    <br><br>
+        <label for="date1">Enter DOB: </label>
+        <input type="date" name="DOB" id="date1">
+        <br><br>
+
+        <label for="ran1">Your BNK Balance</label>
+        <input type="range" name="Bnk Blance" id="ran1" value="60">
+        <br><br>
+        <label for="clr1">Your fav Colour: </label>
+        <input type="color" name="Colour" id="clr1" value="#FFC0CB">
+        <br><br>
+
+        <label for="rating">Your Feedback: </label>
+        <input type="text" name="Feedback" id="rating" placeholder="Enter your Feedback">
+       </fieldset>
+       <input type="submit" value="Submit Details" style="margin: 2%; align-items: center;">
+    </form>
+</body>
+</html>
