@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 12</title>
+</head>
+<body>
+    <form action="">
+
+    <fieldset>
+        <legend>
+           <b>Sign Up</b>
+        </legend>
+
+        <label for="username">Username: </label>
+        <input type="text" name="Username" id="username" required placeholder="Choose your username.">
+        <br><br>
+        <label for="email">Email Id: </label>
+        <input type="email" name="Emails" id="email" placeholder="use authentic mail id">
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="Password" id="password" required
+        pattern="[A-Z]{4,6}"  placeholder="min 8 char and max 12 char">
+        <br><br>
+        <input type="submit" value=" Register Now">
+    </fieldset>
+    <br><fieldset>
+        <legend>
+           <b>Contact Details</b>
+        </legend>
+
+        <label for="Age">Your Age: </label>
+        <input type="number" name="Age" id="Age" required  min="18" max="60" placeholder="10 to 60 only">
+        <br><br>
+        <label for="mobile">Mobile Number: </label>
+        <input type="tel" name="M Number" id="mobile" pattern="[0-9]{10,12}" placeholder="Your Mobile Number">
+        <br><br>
+
+    </fieldset>
+    </form>
+</body>
+</html>
