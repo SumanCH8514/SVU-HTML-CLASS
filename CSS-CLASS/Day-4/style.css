@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(55, 14, 68);
+    color: red;
+}
+
+p {
+    background-color: rgb(3, 217, 255);
+}
+
+p span { background-color: rgb(3, 217, 255);
+}
+
+#idbg1 {color: yellow;
+}
+
+#idgb2 {color: rgb(20, 131, 35);
+}
+#idgb3 {color: rgb(206, 38, 169);
+}
+#mainH1 {
+text-align: center;
+text-decoration: underline;
+}
